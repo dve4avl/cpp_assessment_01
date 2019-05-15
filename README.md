@@ -53,6 +53,7 @@ The return value is a vector with interpolated values
 -   Time starts from the point when the exercise is downloaded
 -   Time ends when the source files are uploaded to the following github repository  
     [https://github.com/dve4avl/cpp_assessment_01](https://github.com/dve4avl/cpp_assessment_01)
+-   Create a new branch on that repository called "yourForename_yourLastname" for commiting the files
 
 **Required Result:**
 
