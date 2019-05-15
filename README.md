@@ -17,8 +17,7 @@ The images show exemplarily what is provided as an one dimensional input, and wh
 -   "CoordinatesImporter" implements a method with the following signature, returning a list of Coordinates:  
     std::vector<T> import(const std::string& filePath);
 -   Every coordinate (line) parsed from the input file should only be instantiated once on the heap
-
-The Coordinates therefore should only exist once in the application context for the whole application runtime
+    The Coordinates therefore should only exist once in the application context for the whole application runtime
 -   The "Coordinate" class should overload the insertion operator << to provide formatted output for the datatype
 -   The "Coordinate" datatype should support a constructor with an initializer list as argument
 e.g. you should be able to write Coordinate<double> coord{ 0.0, 0.0, 0.0 };
