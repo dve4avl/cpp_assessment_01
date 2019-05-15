@@ -15,14 +15,14 @@ The images show exemplarily what is provided as an one dimensional input, and wh
 -   "CoordinatesImporter" parses the coordinates in the given .csv and stores them in the "Coordinate" class.  
     Please play attention that n-dimensional coordinates may be used. In that specific .csv 3D-coordinates are given
 -   "CoordinatesImporter" implements a method with the following signature, returning a list of Coordinates:  
-    std::vector<T> import(const std::string& filePath);
+    `std::vector<T> import(const std::string& filePath);`
 -   Every coordinate (line) parsed from the input file should only be instantiated once on the heap
     The Coordinates therefore should only exist once in the application context for the whole application runtime
--   The "Coordinate" class should overload the insertion operator << to provide formatted output for the datatype
+-   The "Coordinate" class should overload the insertion `operator <<` to provide formatted output for the datatype
 -   The "Coordinate" datatype should support a constructor with an initializer list as argument
-e.g. you should be able to write Coordinate<double> coord{ 0.0, 0.0, 0.0 };
+e.g. you should be able to write `Coordinate<double> coord{ 0.0, 0.0, 0.0 };`
 -   The "AbstractInterpolator" class declares the following method which is also implemented by "LinearInterpolator"  
-    virtual std::vector<T> interpolate(const std::vector<T> coordinates, const unsigned numberOfInterpolatedPoints) const = 0;  
+    `virtual std::vector<T> interpolate(const std::vector<T> coordinates, const unsigned numberOfInterpolatedPoints) const = 0;`  
     In that example T will be of type "Coordinate<E>"
 The return value is a vector with interpolated values
 -   "LinearInterpolator" should work independently of the number of dimensions supported by the "Coordinate" datatype.
