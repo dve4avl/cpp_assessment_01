@@ -27,7 +27,7 @@ e.g. you should be able to write `Coordinate<double> coord{ 0.0, 0.0, 0.0 };`
     In that example T will be of type "Coordinate<E>"
 The return value is a vector with interpolated values
 -   "LinearInterpolator" should work independently of the number of dimensions supported by the "Coordinate" datatype.
--   "LinearInterpolator" interpolates numberOfInterpolatedPoints points as illustrated in the pictures. In the given example numberOfInterpolatedPoints is 2;
+-   "LinearInterpolator" interpolates numberOfInterpolatedPoints points as illustrated in the pictures. In the shown 1D example at the top numberOfInterpolatedPoints is 2;
 -   Print a list of the interpolated coordinates
 
 **General:**
