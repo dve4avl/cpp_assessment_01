@@ -1,7 +1,8 @@
-
 A class should be implemented which is able to (linearly) interpolate between a set of given points.
 
 The images show exemplarily what is provided as an one dimensional input, and what the resulting output should look like for 2 points interpolated in between 2 datapoints.
+
+<img src="https://github.com/dve4avl/cpp_assessment_01/blob/master/interpolation.jpg" width="350" />
 
 4 classes shall be implemented
 
